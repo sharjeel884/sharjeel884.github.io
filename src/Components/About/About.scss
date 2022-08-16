@@ -1,0 +1,45 @@
+#about{
+    margin-top: 100px;
+    .about-card{
+        border-radius: 20px;
+        padding:60px 70px;
+        border: 0;
+        box-shadow: 0px 0px 30px rgba( 0,0,0,0.06);
+        .about-img{
+            position: relative;
+            img{
+                width: auto;
+                height: 300px;
+                object-fit: contain;
+                border-radius: 20px;
+            }
+            .inner-card{
+                position: absolute;
+                top: 40px;
+                right: 40px;
+                border-radius: 20px;
+                padding: 30px 30px;
+                border: 0;
+                background-color: var(--orange);
+                color: white;
+                h5{
+                    margin-bottom:0;
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+                p{
+                    margin-bottom:10px;
+                    font-size: 14px;
+                }
+            }
+        }
+        h4{
+            color:var(--orange);
+            font-weight: 700;
+        }
+        h1{
+            color: var(--primary);
+        }
+    }
+    
+}
