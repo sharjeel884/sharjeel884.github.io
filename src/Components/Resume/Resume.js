@@ -3,7 +3,6 @@ import "./Resume.scss";
 function Resume() {
   const project = [
     { link: "https://autodeals.pk", name: "AutoDeals", desc: "Its a MERN STACK based Website.", date: "04/2022 - 10/2022" },
-    { link: "https://autoones.com", name: "AutoOnes", desc: "Its a MERN STACK based Website.", date: "11/2021 - 09/2022" },
     { link: "https://myauctionsheet.com", name: "My Auction Sheet", desc: "Its a MERN STACK based Website.", date: "02/2022 - 04/2022" },
     { link: "https://citybook.pk", name: "CityBook", desc: "Its a MERN STACK based Website.", date: "12/2021 - 10/2022" },
     { link: "https://platlhr.gov.pk", name: "Plat Lahore", desc: "It's a PHP based website with backend of PHP & MYSQL front-end with HTML, CSS and Javascript", date: "09/2021 - 11/2021" },

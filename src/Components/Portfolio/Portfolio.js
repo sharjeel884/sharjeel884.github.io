@@ -7,7 +7,6 @@ const Portfolio = () => {
 
   const portfolio = [
     { img: require("../../assets/autodeals-logo.efa0266d.png"), name: "AutoDeals", link: "https://autodeals.pk" },
-    { img: require("../../assets/logo.png"), name: "AutoOnes", link: "https://autooness.com" },
     { img: require("../../assets/header.png"), name: "My Auction Sheet", link: "https://myauctionsheet.com" },
     { img: require("../../assets/city book logo.png"), name: "Citybook", link: "https://citybook.pk" },
     { img: require("../../assets/plat-logo.png"), name: "Plat Lahore", link: "https://platlhr.gov.pk" },

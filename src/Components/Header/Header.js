@@ -4,7 +4,7 @@ function Header() {
     <div className="header mt-md-4">
       <div className="container">
         <div className="d-flex justify-content-between">
-          <h1>Sharjeel</h1>
+          <h1>SHARJEEL</h1>
         </div>
       </div>
     </div>
