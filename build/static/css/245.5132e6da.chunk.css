@@ -1,0 +1,2 @@
+.header{padding:10px}.header h1{color:var(--orange);font-weight:700}.header .menu{align-self:center}.header .menu ul{display:flex;list-style:none}.header .menu ul li{color:var(--orange);font-weight:700;padding:0 15px;text-transform:uppercase}.header .menu ul li:hover{color:var(--primary);cursor:pointer}.header .menu ul li:hover:before{background-color:var(--primary);content:"";height:3px;margin-top:30px;position:absolute;width:30px}
+/*# sourceMappingURL=245.5132e6da.chunk.css.map*/

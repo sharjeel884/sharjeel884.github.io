@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[245],{245:function(e,n,a){a.r(n),a.d(n,{default:function(){return c}});var s=a(184);var c=function(){return(0,s.jsx)("div",{className:"header mt-md-4",children:(0,s.jsx)("div",{className:"container",children:(0,s.jsx)("div",{className:"d-flex justify-content-between",children:(0,s.jsx)("h1",{children:"Sharjeel"})})})})}}}]);
+//# sourceMappingURL=245.f96757dc.chunk.js.map
