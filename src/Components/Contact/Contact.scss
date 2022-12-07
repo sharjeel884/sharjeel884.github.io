@@ -1,0 +1,26 @@
+#contact {
+  .contact-card {
+    margin-top: 50px;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.06);
+    padding: 40px 70px;
+    .contact-heading,
+    h6 {
+      color: var(--orange);
+      font-weight: 600;
+    }
+    .custom-contact-btn {
+      background-color: var(--orange);
+      text-align: center;
+      padding: 20px 15px;
+      border-radius: 100px;
+      h3 {
+        font-size: 35px;
+        svg {
+          color: white;
+        }
+      }
+    }
+  }
+}

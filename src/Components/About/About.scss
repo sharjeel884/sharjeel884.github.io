@@ -1,45 +1,74 @@
-#about{
-    margin-top: 100px;
-    .about-card{
+#about {
+  margin-top: 20px;
+  .about-card {
+    border-radius: 20px;
+    padding: 60px 70px;
+    border: 0;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.06);
+    .about-img {
+      position: relative;
+      img {
+        width: auto;
+        height: 300px;
+        object-fit: contain;
         border-radius: 20px;
-        padding:60px 70px;
+      }
+      .inner-card {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        border-radius: 20px;
+        padding: 30px 30px;
         border: 0;
-        box-shadow: 0px 0px 30px rgba( 0,0,0,0.06);
-        .about-img{
-            position: relative;
-            img{
-                width: auto;
-                height: 300px;
-                object-fit: contain;
-                border-radius: 20px;
-            }
-            .inner-card{
-                position: absolute;
-                top: 40px;
-                right: 40px;
-                border-radius: 20px;
-                padding: 30px 30px;
-                border: 0;
-                background-color: var(--orange);
-                color: white;
-                h5{
-                    margin-bottom:0;
-                    font-size: 16px;
-                    font-weight: 700;
-                }
-                p{
-                    margin-bottom:10px;
-                    font-size: 14px;
-                }
-            }
+        background-color: var(--orange);
+        color: white;
+        h5 {
+          margin-bottom: 0;
+          font-size: 16px;
+          font-weight: 700;
         }
-        h4{
-            color:var(--orange);
-            font-weight: 700;
+        p {
+          margin-bottom: 10px;
+          font-size: 14px;
         }
-        h1{
-            color: var(--primary);
-        }
+      }
     }
-    
+    h4 {
+      color: var(--orange);
+      font-weight: 700;
+    }
+    h1 {
+      color: var(--primary);
+    }
+  }
+  .paragraph {
+    text-align: justify;
+  }
+}
+
+@media (max-width: 480px) {
+  #about {
+    margin-top: 20px !important;
+    .about-card {
+      padding: 20px !important;
+      .about-img {
+        img {
+          width: 100% !important;
+          height: 290px !important;
+          object-fit: contain;
+        }
+        .inner-card {
+          position: relative;
+          left: 0;
+          top: 10px;
+          padding: 20px;
+          margin-top: 10px;
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+  .paragraph {
+    text-align: left !important;
+  }
 }

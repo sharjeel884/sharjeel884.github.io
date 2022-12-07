@@ -1,26 +1,13 @@
-import "./Header.scss"
+import "./Header.scss";
 function Header() {
-
-    return (
-      <div className="header">
-        <div className="container">
-          <div className="d-flex justify-content-between">
-            <h1>Sharjeel</h1>
-            <div className="menu">
-                <ul>
-                  <li>Home</li>
-                  <li>About </li>
-                  <li>Services</li>
-                  <li>Portfolio</li>
-                  <li>Contact</li>
-
-                </ul>
-              
-            </div>
-          </div>
+  return (
+    <div className="header mt-md-4">
+      <div className="container">
+        <div className="d-flex justify-content-between">
+          <h1>Sharjeel</h1>
         </div>
       </div>
-    );
-  }
-  export default Header;
-  
+    </div>
+  );
+}
+export default Header;

@@ -1,0 +1,92 @@
+#portfolio {
+  .portfolio-card {
+    margin-top: 20px;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.06);
+    padding: 40px 70px;
+    .resume-heading,
+    h6 {
+      color: var(--orange);
+      font-weight: 600;
+    }
+    .portfolio-tabs {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      .btn {
+        font-size: 24px;
+        font-weight: 700;
+        padding: 0 30px;
+        border: 0 !important;
+        &:hover {
+          color: var(--orange);
+          transition: 0.3s;
+        }
+        &:focus {
+          border: 0 !important;
+          outline: none !important;
+          box-shadow: none !important;
+        }
+      }
+      .active {
+        color: var(--orange);
+      }
+    }
+    .portfolio-brands {
+      margin-top: 30px;
+      .brand-img {
+        position: relative;
+        width: 100%;
+        border: 1px solid var(--light);
+        border-radius: 20px;
+        padding: 20px;
+      }
+
+      .image {
+        display: block;
+        width: auto;
+        height: 170px;
+        object-fit: contain;
+      }
+
+      .overlay {
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        right: 0;
+        background-color: var(--primary);
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: 0.5s ease;
+        border-radius: 20px;
+      }
+
+      .brand-img:hover .overlay {
+        bottom: 0;
+        height: 100%;
+      }
+
+      .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  #portfolio {
+    .portfolio-card {
+      padding: 20px;
+    }
+  }
+}
