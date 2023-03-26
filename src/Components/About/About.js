@@ -10,7 +10,7 @@ function About() {
           <div className="row">
             <div className="col-sm-6">
               <div className="about-img">
-                <img src={require("../../assets/A0B943FF-BB16-4294-B170-26B4D1E51099_1_105_c.jpeg")} />
+                <img style={{ width: "350px", height: "440px", objectFit: "cover" }} src={require("../../assets/A0B943FF-BB16-4294-B170-26B4D1E51099_1_105_c.jpeg")} />
                 <div className="inner-card card">
                   <h5>Name</h5>
                   <p>Sharjeel Khalid</p>
