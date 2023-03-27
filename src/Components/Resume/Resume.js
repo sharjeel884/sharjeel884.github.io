@@ -4,11 +4,10 @@ function Resume() {
   const project = [
     { link: "https://autodeals.pk", name: "AutoDeals", desc: "Its a MERN STACK based Website.", date: "04/2022 - 10/2022" },
     { link: "https://myauctionsheet.com", name: "My Auction Sheet", desc: "Its a MERN STACK based Website.", date: "02/2022 - 04/2022" },
+    { link: "https://autoones.com", name: "AutoOnes", desc: "Its a MERN STACK based Website.", date: "11/2021 - 07/2022" },
     { link: "https://citybook.pk", name: "CityBook", desc: "Its a MERN STACK based Website.", date: "12/2021 - 10/2022" },
     { link: "https://platlhr.gov.pk", name: "Plat Lahore", desc: "It's a PHP based website with backend of PHP & MYSQL front-end with HTML, CSS and Javascript", date: "09/2021 - 11/2021" },
-    { link: "https://arsteelworks.com", name: "AR Steel Works", desc: "PHP based website backend with PHP and mysql, front-end with HTML, CSS & Javascript.", date: "07/2021 - 09/2021" },
     { link: "https://chooseandbuy.pk", name: "Choose & buy", desc: "Its a wordpress website", date: "10/2021 - 11/2021" },
-    { link: "https://shaanlights.com", name: "Shaan Lights", desc: "Its a wordpress website", date: "01/2022 - 02/2022" },
     {
       link: "https://inpkr.com",
       name: "inPKR",
@@ -29,15 +28,13 @@ function Resume() {
     <p className="text-muted"></p>
   </div>;
   return (
-    <div id="resume">
+    <div id="resume" className="my-4">
       <div>
         <div className="card resume-card">
           <div className="row">
             <div className="col-sm-7">
-              <h4 className="resume-heading">Resume</h4>
-              <h1>
-                Combination of Skill <br />& Experience
-              </h1>
+              <h1 className="resume-heading">Resume</h1>
+              <h2>Combination of Skill & Experience</h2>
 
               <div>
                 <div className="d-flex mt-5">
@@ -50,9 +47,7 @@ function Resume() {
                     <h6>2016-2022</h6>
                   </div>
                   <h5 className="text-muted">University of the Punjab</h5>
-                  <p className="text-muted">
-                    Object Oriented Programming - Database Systems - Software engineering - Programming Data Structure & Algorithm - Object Oriented Analysis & Design - Analysis of Algorithm
-                  </p>
+                  <p className="text-muted">Object Oriented Programming - Database Systems - Software engineering - Programming Data Structure & Algorithm - Object Oriented Analysis & Design - Analysis of Algorithm</p>
                 </div>
               </div>
               <div>

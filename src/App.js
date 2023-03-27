@@ -9,7 +9,7 @@ const Header = lazy(() => import("./Components/Header/Header"));
 function App() {
   return (
     <div className="bg-img ">
-      <div className="container">
+      <div className="">
         <Header />
         <Home />
         <Footer />
