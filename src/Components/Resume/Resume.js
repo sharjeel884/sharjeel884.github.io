@@ -16,8 +16,8 @@ function Resume() {
     },
   ];
 
-  <div className="mt-3">
-    <div className="d-flex justify-content-between ">
+  <div className="">
+    <div className="d-flex justify-content-between">
       <h5>
         <a href="" target="_blank">
           inPKR
@@ -25,17 +25,17 @@ function Resume() {
       </h5>
       <h6>(10/2022 - Present)</h6>
     </div>
-    <p className="text-muted"></p>
+    <p className=""></p>
   </div>;
   return (
-    <div id="resume" className="my-4">
-      <div>
-        <div className="card resume-card">
+    <div id="resume" className="">
+      <div className="container">
+        <div className="resume-card">
+          <h4 className="resume-heading">Resume</h4>
+          <h1>Combination of Skill & Experience</h1>
+
           <div className="row">
             <div className="col-sm-7">
-              <h1 className="resume-heading">Resume</h1>
-              <h2>Combination of Skill & Experience</h2>
-
               <div>
                 <div className="d-flex mt-5">
                   <div className="circle"></div>
@@ -46,8 +46,8 @@ function Resume() {
                     <h5>Bachelors in Computer Science (BSCS) PUCIT</h5>
                     <h6>2016-2022</h6>
                   </div>
-                  <h5 className="text-muted">University of the Punjab</h5>
-                  <p className="text-muted">Object Oriented Programming - Database Systems - Software engineering - Programming Data Structure & Algorithm - Object Oriented Analysis & Design - Analysis of Algorithm</p>
+                  <h5 className="">University of the Punjab</h5>
+                  <p className="">Object Oriented Programming - Database Systems - Software engineering - Programming Data Structure & Algorithm - Object Oriented Analysis & Design - Analysis of Algorithm</p>
                 </div>
               </div>
               <div>
@@ -56,7 +56,7 @@ function Resume() {
                     <h5>Intermediate </h5>
                     <h6>2014-2016</h6>
                   </div>
-                  <h5 className="text-muted">Govt Islamia College Civilines.</h5>
+                  <h5 className="">Govt Islamia College Civilines.</h5>
                 </div>
               </div>
               <div className="experience">
@@ -69,7 +69,7 @@ function Resume() {
                     <h5>Wellcreator</h5>
                     <h6>05/2021 - Present</h6>
                   </div>
-                  <p className="text-muted">
+                  <p className="">
                     - Working on React.js and React-native as a Front-end Engineer with Material UI , Bootstrap and others.
                     <br />
                     - Collaborate and work with frontend and backend need of projects.
@@ -88,7 +88,17 @@ function Resume() {
                   <div className="circle"></div>
                   <h2 className="mb-0">Skills</h2>
                 </div>
-                <div>
+                <div className="d-flex justify-content-between flex-wrap mt-3">
+                  <h4 className="m-3">HTML</h4>
+                  <h4 className="m-3">SCSS</h4>
+                  <h4 className="m-3">React.js</h4>
+                  <h4 className="m-3">React-native</h4>
+                  <h4 className="m-3">Wodpress</h4>
+                  <h4 className="m-3">Shopify</h4>
+                  <h4 className="m-3">PHP</h4>
+                  <h4 className="m-3">SQL</h4>
+                </div>
+                {/* <div>
                   <div className="progress-bar-time mt-md-4 mt-3">
                     <h4>React.js</h4>
                     <div className="d-flex ">
@@ -121,7 +131,7 @@ function Resume() {
                     </div>
                     <div className="progress"></div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-sm-5">
@@ -140,7 +150,7 @@ function Resume() {
                       </h5>
                       <h6>{item.date}</h6>
                     </div>
-                    <p className="text-muted">{item.desc}</p>
+                    <p className="">{item.desc}</p>
                   </div>
                 ))}
 
@@ -165,14 +175,14 @@ function Resume() {
                   </div>
                   <div className="progress"></div>
                 </div>
-                <div className="progress-bar-time">
+                {/* <div className="progress-bar-time">
                   <h4>Intigrity</h4>
                   <div className="d-flex ">
                     <div className="progress-value"></div>
                     <div className="percentage">90%</div>
                   </div>
                   <div className="progress"></div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

@@ -4,7 +4,7 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 function Footer() {
   return (
     <div id="footer" className="container">
-      <div className="d-flex justify-content-between my-4">
+      <div className="d-flex justify-content-between my-4 mt-5">
         <h4 className="mb-0">
           Develop by <span style={{ color: "var(--orange)" }}>Sharjeel</span>
         </h4>

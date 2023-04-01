@@ -1,5 +1,5 @@
 #resume {
-  margin-top: 20px;
+  margin-top: 50px 80px;
   .resume-card {
     border: 0;
     border-radius: 20px;
@@ -152,7 +152,21 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 992px) and (max-width: 768px) {
+  #resume {
+    margin-top: 20px;
+    .resume-card {
+      padding: 20px;
+      .progress-bar-time {
+        .progress {
+          width: 310px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
   #resume {
     margin-top: 20px;
     .resume-card {

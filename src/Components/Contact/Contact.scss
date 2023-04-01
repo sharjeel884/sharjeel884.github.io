@@ -1,10 +1,11 @@
 #contact {
+  margin: 80px;
+  margin-bottom: 100px;
   .contact-card {
     margin-top: 50px;
     border: 0;
     border-radius: 20px;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.06);
-    padding: 40px 70px;
+    padding: 0px 50px;
     .contact-heading,
     h6 {
       color: var(--orange);
@@ -13,14 +14,46 @@
     .custom-contact-btn {
       background-color: var(--orange);
       text-align: center;
-      padding: 20px 15px;
-      border-radius: 100px;
+      width: 50px;
+      height: 50px;
+      padding: 10px;
+      border-radius: 100%;
       h3 {
         font-size: 35px;
         svg {
-          color: white;
+          color: var(--white);
         }
       }
+    }
+    .social-link {
+      font-size: 30px;
+      color: var(--grey);
+      transition: 0.3s all ease;
+      &:hover {
+        color: var(--orange);
+        margin-top: -5px;
+        transform: scale(1.2);
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+  #contact {
+    margin: 20px;
+    .contact-card {
+      padding: 20px;
+      margin-top: 0;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  #contact {
+    margin: 40px 20px;
+    .contact-card {
+      padding: 0;
+      margin-top: 0;
     }
   }
 }

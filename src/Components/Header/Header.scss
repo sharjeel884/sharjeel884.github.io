@@ -42,3 +42,15 @@
     }
   }
 }
+
+@media (max-width: 767px) {
+  .header {
+    .menu-btn {
+      padding: 10px;
+      font-size: 14px;
+    }
+    .mobile-header {
+      width: 100%;
+    }
+  }
+}
