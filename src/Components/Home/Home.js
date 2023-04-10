@@ -21,9 +21,7 @@ function Home() {
                 </div>
               </div>
               <div className="col-sm-6 align-self-center">
-                <h1 className="fw-bold">
-                  Front-End React <br /> Developer
-                </h1>
+                <h1 className="fw-bold">Front-End Engineer</h1>
                 <p className="my-3" style={{ textAlign: "justify" }}>
                   Hi, I'm <strong style={{ color: "var(--orange)" }}>Sharjeel</strong>. I am web & app developer. I believe web develop can be more miscellaneous and inclining. With a mission to present various possibilities of web and app development, I am pursuing new aspects through experiments and thoughts.
                 </p>

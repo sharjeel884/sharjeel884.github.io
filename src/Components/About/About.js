@@ -10,7 +10,7 @@ function About() {
             <h4 className="fw-bold" style={{ color: "var(--orange)" }}>
               About Me
             </h4>
-            <h1>Front-end Engineer </h1>
+            <h1>Front-End Engineer </h1>
             <b>An amorous Web and App Developer sited in Lahore, Pakistan.</b>
             <p className="my-2 paragraph">
               Hey! My name is Sharjeel Khalid. I am Web and App developer. I am very amorous and passionate with my work. I have attained the learning and abilities that is required to make your plan, a sucess. I am proficient in developing creating user interfaces, writing and testing codes, troubleshooting simple/complex issues and implementing new features based on user feedback.
